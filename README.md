@@ -81,7 +81,7 @@ d:
 `ask_var` elements should define a string `key`, a string `ask`, and a string `goto`.
 When the element is run, it will ask the text in `ask` and put the response into a variable as `key`.
 These variables can be accessed along the story (in dialogue `text` and question `ask` strings) by using `${<key>}`. 
-If they haven't been defined yet when an element is run, it will simple leave it as "${<key>}".
+If they haven't been defined yet when an element is run, it will simple leave it as "\${<key>}".
 <details>
     <summary>Example (json)</summary>
 
